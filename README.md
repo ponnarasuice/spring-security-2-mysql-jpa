@@ -8,6 +8,7 @@ This example covers the following:
 ### IMPORT to eclipse
 - import -> maven project
 - here i am connecting mysql aws rds DB. if localhost available we can use that as well
+- currently DB connection details are not provided. before running kindly update the applicaiton.properties with that.
 - 3 table structures are created. role, user, user_role(map of user and their roles) 
 - we are giving update, so tables are created in my sql.we need to insert data.
 - here spring jpa is used to retrive data. default hibernate is used by default.
